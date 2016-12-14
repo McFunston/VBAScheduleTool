@@ -151,6 +151,7 @@ Function GetLocation1Time(JobNumber) As Variant
     
     Worksheets("Sheet1").Activate
 End Function
+
 Sub GetStatus(JobNumber As String, ByRef FilesIn As String, ByRef ProofOut As String, ByRef ProofIn As String)
        
     Dim NumberOfRows As Integer
